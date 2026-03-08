@@ -34,7 +34,7 @@ while True:
 
     command = listen()
 
-    if "hello" in command:
+    if "Hey Ethen" in command:
         speak("Hello, how can I help you?")
 
     elif "time" in command:
