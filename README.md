@@ -35,7 +35,7 @@ while True:
     command = listen()
 
     if "Hey Ethen" in command:
-        speak("Hello, how can I help you?")
+        speak("Hey, how can I help you?")
 
     elif "time" in command:
         time = datetime.datetime.now().strftime("%H:%M")
